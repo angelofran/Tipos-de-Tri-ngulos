@@ -2,7 +2,7 @@ valores = list(map(float, input().split()))
 A, B, C = sorted(valores, reverse = True)
 
 if A >= B + C:
-    print('NAO FORMA TRINAGULO')
+    print('NAO FORMA TRIANGULO')
 
 else:
     if (A ** 2) == (B ** 2) + (C ** 2):
